@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="high">high</string>
+    <string name="normal">normal</string>
+    <string name="low">Low</string>
+    <string-array name="priority_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

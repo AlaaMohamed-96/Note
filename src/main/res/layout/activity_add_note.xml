@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity"
+    android:orientation="vertical"
+    android:padding="12dp"
+    >
+    <EditText
+        android:id="@+id/titel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="titel"
+        />
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="data"
+        />
+    <EditText
+        android:id="@+id/deteals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="deteals"
+        android:layout_gravity="center"
+        android:lines="5"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="priority"
+        android:padding="12dp"
+        />
+
+    <Spinner
+        android:id="@+id/priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/priority_array"
+        >
+
+    </Spinner>
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:padding="20dp"
+        />
+
+</LinearLayout>
